@@ -1,0 +1,28 @@
+/*
+The Great Divide Web Game Framework
+} Copyright by Brett Fraley 2016]
+*/
+/* 
+    Created on : May 17, 2016, 4:23:27 AM
+    Author     : bfraley
+*/
+
+body {
+    background-color: #333;
+    color:#ddd;
+}
+
+.block {
+    width:20px;
+    height:20px;
+    background-color:#333;
+    display:inline-block;
+    line-height:0.01;
+}
+
+.block * {
+    width:25%;
+    height:25%;    
+    display:inline-block;
+}
+

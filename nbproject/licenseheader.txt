@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}The Great Divide Web Game Framework
+${licensePrefix}} Copyright by Brett Fraley 2016]
+<#if licenseLast??>
+${licenseLast}
+</#if>

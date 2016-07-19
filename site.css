@@ -1,0 +1,23 @@
+/* CSS for Great Divide website */
+
+/* Color Scheme
+#FFB997    tan
+#F67E7d    peach
+#843B62    purple
+#0b032D    blue
+#74546A    beige
+*/
+
+
+
+
+body {
+    background-color:#FFB997;
+    color: #0B032D;
+    text-align:center;
+}
+
+.logo, .sublogo {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.logo { font-size:5em;}

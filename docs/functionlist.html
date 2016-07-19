@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+The Great Divide Web Game Framework
+} Copyright by Brett Fraley 2016]
+-->
+<html>
+    <head>
+        <title>Great Divide - Documentation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <a href="../main.html">Home</a>
+       <h1>Interactive Testing &amp; Tools</h1>
+
+<h2>Element Creation and Control Functions</h2>
+<ul>
+    <li>new_main_scene(default document already assigned)</li>
+    <li>new_scene(requires reference to main scene)</li>
+    <li>new_sub_scene(requires a reference to a parent scene)</li>
+    <li>new_block(null or scene reference, boolean to auto add subpx)</li>    
+    <li>new_subpx(requires reference to a parent block)</li>
+</ul>
+
+<h2>Functions to get at scenes, subscenes, blocks, and subpx.</h2>
+<ul>
+    <li>get_gd_main</li>
+    <li>get_allscenes</li>
+    <li>get_allsubscenes</li>
+    <li>get_allblocks</li>
+    <li>get_allsubpxs</li>  
+</ul>
+
+<p>Get elements by class or ID. Requires arguments:
+[0 for class or 1 for id, class or id name]</p>
+
+<ul>
+    <li>get_gd_component</li>
+</ul>
+
+<p>Get a component at a specific index</p>
+<ul>
+    <li>get_gd_component_byindex(list, index)</li>
+</ul>
+
+<p>These are various loop generation functions.</p>
+
+<p>Iterate over static sized, or dynamic sized array
+of a specific component type and call a list of functions
+on each component element. (all scenes, subscenes, blocks, or subpxs)
+</p>
+
+<ul>
+    <li>loop_gd_static_component_list</li>
+    <li>loop_gd_dynamic_component_list</li>
+</ul>
+
+<h2>Component-specific CSS functions for scenes,
+subscenes, blocks, and subpx.</h2>
+
+<ul>
+    <li>set_main_size(w, h)</li>
+    <li>set_main_color(bg_or_fg, color)</li>
+    <li>set_size(component_type, w, h)</li>
+    <li>set_color(bg_orfg, component_type, color)</li>
+    <li>set_added_class(component_reference, classname)</li>
+    <li>set_id(component_reference, idname)</li>
+</ul>
+    </body>
+</html>
